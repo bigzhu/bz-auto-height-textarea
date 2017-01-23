@@ -27,6 +27,8 @@
         name: 'bz-auto-height-textarea',
         desc: '自动高度的textarea',
         parms: [
+          {parm: '@focusout', desc: ''},
+          {parm: '@focusin', desc: ''},
           {parm: 'v-model', desc: '和正常的textarea一样的用'}
         ],
         parm_desc: ``,
