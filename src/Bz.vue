@@ -1,5 +1,5 @@
 <template>
-  <textarea @focusin="focusin" @focusout="focusout" @input="input" v-model="value_bz"></textarea>
+  <textarea rows=1 @focusin="focusin" @focusout="focusout" @input="input" v-model="value_bz"></textarea>
 </template>
 
 <script>
@@ -30,6 +30,7 @@
     },
     methods: {
       input: function () {
+        this.$el.style.height = 'auto'
         this.$el.style.height = (this.$el.scrollHeight) + 'px'
       },
       focusin: function (e) {

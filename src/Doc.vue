@@ -23,7 +23,7 @@
     },
     data: function () {
       return {
-        data: 'djifdfjidjfidjfidjfdjfiddddddddjifffffffffffff',
+        data: '',
         loading: false,
         name: 'bz-auto-height-textarea',
         desc: '自动高度的textarea',
