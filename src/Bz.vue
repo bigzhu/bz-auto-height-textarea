@@ -30,7 +30,6 @@
     },
     methods: {
       input: function () {
-        this.$el.style.height = 'auto'
         this.$el.style.height = (this.$el.scrollHeight) + 'px'
       },
       focusin: function (e) {

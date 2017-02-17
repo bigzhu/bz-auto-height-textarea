@@ -6,7 +6,8 @@
       :parms="parms"
       :code="code"
       >
-      <bz v-model="data"></bz>
+      <bz class="h" v-model="data"></bz>
+
     </doc>
   </div>
 </template>
@@ -22,7 +23,7 @@
     },
     data: function () {
       return {
-        data: '测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试测试',
+        data: 'djifdfjidjfidjfidjfdjfiddddddddjifffffffffffff',
         loading: false,
         name: 'bz-auto-height-textarea',
         desc: '自动高度的textarea',
@@ -48,3 +49,8 @@
     }
   }
 </script>
+<style>
+  .h {
+    height: 20px;
+  }
+</style>
